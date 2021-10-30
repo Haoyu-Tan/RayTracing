@@ -1,0 +1,10 @@
+# test for aspect ratio extreme
+camera_pos: 0 0 -4
+camera_fwd: 0 0 -1
+camera_up:  0 1 0
+camera_fov_ha: 25
+film_resolution: 200 30
+output_image: 4-aspectRatio.png
+material: 1 0 0 1 0 0 .3 .3 .3 32 .2 .2 .2 1.5
+sphere: 0 0 0 0.7
+ambient_light: .25 .25 .25

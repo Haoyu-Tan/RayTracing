@@ -1,0 +1,15 @@
+#camera: 0 0 0 0 0 1 0 1 0 26
+camera_pos: 0 0 0
+camera_fwd: 0 0 -1
+camera_up: 0 1 0
+camera_fov_ha: 26
+output_image: test4.png
+
+material: 1 0 0 1 0 0 0 0 0 16 0 0 0 1
+sphere: 1 0 4 1
+sphere: -1 0 4 0.5
+
+point_light: 20 20 20 -8 0 4
+
+background: 0 0 0
+ambient_light: .2 .2 .2

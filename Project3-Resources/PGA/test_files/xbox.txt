@@ -1,0 +1,9 @@
+material: 0.5 0 0 0 1 1 .6 .3 .3 32 .2 .2 .2 1.5
+sphere: 0 0 2 1
+spot_light: 0 0.5 0 0.8 0 0.8 0 1 2 60 80
+background: .5 .5 .5
+spot_light: 0 0.5 0 -0.8 0 0.8 0 1 2 60 80
+spot_light: 0 0.5 0 0 0.8 0.8 0 1 2 60 80
+spot_light: 0 0.5 0 0 -0.7 0.7 0 1 2 60 80
+output_image: xbox.png
+max_depth: 0

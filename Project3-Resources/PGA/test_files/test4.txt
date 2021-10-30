@@ -1,0 +1,20 @@
+#Simple sphere: Scene
+camera_pos: 0 0 0
+camera_fwd: 0 0 -1
+camera_up:  0 1 0
+camera_fov_ha: 35
+output_image: test4.bmp
+
+material: 1 0 0 1 0 0 1 1 1 16 0 0 0 1
+sphere: 1 0 4 1
+material: 0 1 0 1 0 0 1 1 1 16 0 0 0 1
+sphere: -1 0 4 0.5
+
+
+#white overhead light
+point_light: 20 20 20 -8 0 4
+#directional_light: 0.3 0.3 0.3 0 -1 1
+background: 0 0 0
+ambient_light: 0.2 0.2 0.2
+
+max_depth: 5

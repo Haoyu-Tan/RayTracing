@@ -1,0 +1,23 @@
+#Simple sphere: Scene
+camera_pos: -6 2 -4
+camera_fwd: -.77 0 -.64
+camera_up:  0 1 0
+camera_fov_ha: 35
+output_image: cone1.png
+
+lens_simulation: 0 30
+
+#"ground" sphere:
+material: .75 .75 .75 .75 .75 .75 .3 .3 .3 32 .2 .2 .2 1.5
+sphere: 0 -50 0 50
+
+jitter_supersampling: 0
+
+
+
+#white overhead light
+point_light: 10 10 10 0 5 0
+ambient_light: .25 .25 .25
+background: .05 .05 .05
+
+max_depth: 5
