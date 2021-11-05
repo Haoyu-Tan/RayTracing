@@ -124,13 +124,13 @@ File:
 
 ### Others
 
-**Colorful Planets**
+**(1)Colorful Planets**
 
 ![colourful](https://user-images.githubusercontent.com/35856355/139577187-a51d7eac-34f3-4c44-9076-195639071f2a.png)
 
 **Thanks my friend Ruichen He for the design of this file**
 
-**Ugly Ink Bottle**
+**(2)Ugly Ink Bottle**
 
 ![fc54be838ab5255d9f902382e3f6ed2](https://user-images.githubusercontent.com/35856355/139577292-741a6b65-535b-46f8-a9a6-5dd161596764.png)
 
