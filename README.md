@@ -8,7 +8,7 @@ This is a ray tracer written in C++. The ray tracer takes an input file that spe
 
 ## How to Run
 
-Please run the ray.exe under the Project3-Resources/PGA folder with a .txt files that specifies the scene setting on command line. There are some sample input files in the ./SampleTest and ./test_files folder. The resulted images will be stored in the same folder with ray.exe.
+Please run the ray.exe under the Project3-Resources/PGA folder with a .txt file that specifies the scene setting on command line. There are some sample input files in the ./SampleTest and ./test_files folder. The output images will be stored in the same folder with ray.exe.
 
 ## How to Generate an Input File
 
