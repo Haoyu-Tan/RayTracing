@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a ray tracer written in C++. The ray tracer takes an input file that specifies multiple types of light and light sources, material properties and shapes, and it calculates the lighting effect on each pixel based on the input file. The types of light it supports include ambient light, point light, spot light and directional light. The material properties it supports include ambient, specular, reflection and refraction. The shapes it supports include sphere, triangles with and without normal of each vertex, planes and boxes.
+This is a ray tracer written in C++. The ray tracer takes an input file that specifies multiple types of light and light source, material property and shape, and it calculates the lighting effect on each pixel based on the input file. The types of light it supports include ambient light, point light, spot light and directional light. The material properties it supports include ambient, specular, reflection and refraction. The shapes it supports include sphere, triangles with and without normal of each vertex, planes and boxes.
 
 **This is a course project, the original submission page is on: https://sites.google.com/umn.edu/haoyutan/home/project3-b. However, the submission webpage is for reference only, please still download the code from github, thanks a lot!**
 
