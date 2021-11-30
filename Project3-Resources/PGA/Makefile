@@ -1,17 +1,18 @@
-vpath %.c src
-vpath %.h include
+VPATH = src:include
 
 OBJS = rayTrace_pga.o
 prom = rayTrace
+DEP = $(shell find ./include -name "*.h")
 
 CC = g++
-CFLAGS = -std=c++14 -MM -c
+CFLAGS = -std=c++14 -c
 LFLAGS = -Wall
 
-$(prom): $(OBJS) 
-  $(CC) $(LFLAGS) $(OBJS) -o $(prom)
+all: $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) -o $(prom)
 
+rayTrace_pga.o: rayTrace_pga.cpp $(DEP)
+	$(CC) $(CFLAGS) ./src/rayTrace_pga.cpp
 
 clean:
-  rm -rf $(OBJS)
-
+	rm -rf $(OBJS)
