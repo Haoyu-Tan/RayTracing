@@ -7,8 +7,11 @@ This is a ray tracer written in C++. The ray tracer takes an input file that spe
 **This is a course project (Spring 2021 Semester), and the original submission page is on: https://sites.google.com/umn.edu/haoyutan/home/project3-b. However, the submission webpage is for reference only so please still use the code from GitHub. Thanks a lot!**
 
 ## How to Run
+### There are two ways to run this project
+1. There is an executable file **ray.exe** under the **Project3-Resources/PGA** folder. 
+2. There is a **Makefile** under the **Project3-Resources/PGA** folder. Running it using **make** on command line will generate an executable file **rayTrace**.
 
-Please run the ray.exe under the Project3-Resources/PGA folder with a .txt file that specifies the scene setting on command line. There are some sample input files in the ./SampleTest and ./test_files folder. The output images will be stored in the same folder with ray.exe.
+On command line, running the executable with an input .txt file that specifies the scene setting will generate an output image. There are some sample input files in the ./SampleTest and ./test_files folder.
 
 ## Sample Files & Output Images
 
